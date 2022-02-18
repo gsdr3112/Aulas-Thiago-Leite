@@ -1,5 +1,12 @@
 package one.digitalinnovation.basecamp;
 
+/**
+ * @author Guilherme Silva da Rocha
+ * @since 17/02/2022
+ * @version 1.0.0
+ * @since 1.0.0
+*/
+
 public class Main {
 
     public static void main(String[] args) {
@@ -20,10 +27,17 @@ public class Main {
         System.out.println();
 
         //Área quadriláteros
-        Quadrilatero.area(2);
-        Quadrilatero.area(54d, 40d);
-        Quadrilatero.area(54, 40,55);
-        Quadrilatero.area(54f, 40f);
+        double areaQuadrado = Quadrilatero.area(5);
+        System.out.println("Área do quadrado: "+ areaQuadrado + " um2");
+
+        double areaRetangulo = Quadrilatero.area(40d,50d);
+        System.out.println("Área do retângulo: "+ areaRetangulo + " um2");
+
+        double areaTrapezio = Quadrilatero.area(60,50,60);
+        System.out.println("Área do trapézio: " + areaTrapezio + " um2");
+
+        float areaLosango = Quadrilatero.area(50f,40f);
+        System.out.println("Área do losango: " + areaLosango + " um2");
 
 
 
