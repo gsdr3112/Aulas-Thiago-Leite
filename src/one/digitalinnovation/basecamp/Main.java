@@ -9,7 +9,7 @@ package one.digitalinnovation.basecamp;
 
 public class Main {
 
-    public static void main(String[] args) {
+   /* public static void main(String[] args) {
         //Calculadora
         Calculadora.soma(25.4, 72.3);
         Calculadora.subtracao(-50, 123.536);
@@ -44,7 +44,17 @@ public class Main {
 
 
 
-    }
+    }*/
+   public static void main(String[] args) {
+       String s1 = "C";
+       String s2 = "C";
+       char c1 = 'x';
+       char c2 = 'y';
+
+       System.out.println("s1 == s2: " + (s1==s2));
+       System.out.println("c1 == c2: " + (c1==c2));
+
+   }
 
 
 }
