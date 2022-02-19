@@ -77,6 +77,14 @@ public class Main {
     }*/
 
     public static void main(String[] args) {
+
+        metodo1();
+        metodo2();
+        switch1a3();
+    }
+
+    public static void metodo1() {
+        System.out.println("------------Método 1-------------");
         int mes = 12;
 
         switch (mes) {
@@ -123,6 +131,8 @@ public class Main {
         }
         System.out.println();
 
+
+
         if (mes == 1) {
             System.out.println("janeiro");
         } else if (mes == 2) {
@@ -157,10 +167,13 @@ public class Main {
         }
 
         System.out.println();
+    }
 
+    public static void metodo2() {
+        System.out.println("------------Método 2-------------");
         String diaSemana = "sabado";
 
-        switch (diaSemana){
+        switch (diaSemana) {
             case "segunda":
                 System.out.println(1);
                 break;
@@ -185,8 +198,31 @@ public class Main {
             default:
                 System.out.println("Valor indefinido");
         }
+        System.out.println();
+    }
+
+    public static void switch1a3() {
+        System.out.println("------------Método 3-------------");
+        int numero = 5;
+
+        switch (numero) {
+            case 1:
+                System.out.println("Certo");
+                break;
+            case 2:
+                System.out.println("Certo");
+                break;
+            case 3:
+                System.out.println("Certo");
+                break;
+            case 5:
+                System.out.println("Talvez");
+                break;
+            default:
+                System.out.println("Valor indefinido");
 
 
+        }
     }
 
 
